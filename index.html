@@ -8,68 +8,134 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-D0XEP8DS18');
 </script>
-  
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Down for Maintenance</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to bottom, #f6f1f1, #d9e2ec);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: #3a3a3a;
-      text-align: center;
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Coming Soon</title>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f6f1f1, #d9e2ec);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3a3a3a;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .layout {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+  }
+
+  .side-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+.side-buttons a {
+  text-decoration: none;
+  padding: 0.8rem 1.6rem; /* Slightly wider padding */
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+
+  .side-buttons a:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+  }
+
+  .home-btn {
+    background-color: #fcd5ce; /* soft pink */
+    color: #5a4a4a;
+  }
+
+  .blue-btn {
+    background-color: #cce5ff; /* soft blue */
+    color: #334;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 700px;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 24px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    color: #2d2d2d;
+  }
+
+  p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+
+  .icon {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    color: #888;
+  }
+
+  @media (max-width: 768px) {
+    .layout {
+      flex-direction: column;
+      gap: 2rem;
     }
 
-    .container {
-      max-width: 600px;
-      padding: 2rem;
-      background-color: rgba(255, 255, 255, 0.75);
-      border-radius: 20px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    }
+.side-buttons  {
+  text-decoration: none;
+  padding: 0.8rem 1.6rem; /* Slightly wider padding */
+  border-radius: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  white-space: nowrap; /* Prevent line breaks */
+}
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      color: #2d2d2d;
-    }
-
-    p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-
-    .icon {
-      font-size: 4rem;
-      margin-bottom: 1rem;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <div class="icon">🛠️</div>
-    <h1>To Be Back Soon</h1>
-    <p>Site is currently undergoing maintenance.<br>
-       Please check back later. </p>
+
+  <div class="layout">
+    <!-- Side Buttons -->
+    <div class="side-buttons">
+      <a href="index.html" class="home-btn">Home</a>
+      <a href="about.html" class="blue-btn">About Us</a>
+      <a href="contact.html" class="blue-btn">Contact</a>
+    </div>
+
+    <!-- Cozy Content Box -->
+    <div class="container">
+      <div class="icon">🌿</div>
+      <h1>Coming Soon</h1>
+      <p>A cozy new space is being crafted just for you. Check back again soon!</p>
+      <footer>© 2025 fb-page.services</footer>
+    </div>
   </div>
+
 </body>
 </html>
